@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is basically a practice for my project to connect the backend to the mysql database. To learn relational database more this repo will be helped.",
   "main": "database.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
     "mysql2": "^3.11.3"
   }
 }
